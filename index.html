@@ -1,10 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
+
+<head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <link href="https://fonts.googleapis.com/css?family=Roboto:regular,500,600,700,800&display=swap"
+      rel="stylesheet" />
+   <link rel="stylesheet" type="" href="./style.css">
+   <link rel="icon" href="./assets/favicon.ico">
+   <title>cv</title>
 </head>
-<body></body>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__container _container">
+            <a href="" class="header__logo">
+               CV(AS)
+            </a>
+            <nav class="header__menu menu">
+               <ul class="menu__list">
+                  <li class="menu__item">
+                     <a href="#contacts" class="menu__link">Contacts</a>
+                  </li>
+                  <li class="menu__item">
+                     <a href="#summary" class="menu__link">Summary</a>
+                  </li>
+                  <li class="menu__item">
+                     <a href="#skills" class="menu__link">Skills</a>
+                  </li>
+                  <li class="menu__item">
+                     <a href="#code" class="menu__link">Code</a>
+                  </li>
+                  <li class="menu__item">
+                     <a href="#courses" class="menu__link">Courses</a>
+                  </li>
+                  <li class="menu__item">
+                     <a href="#education" class="menu__link">Education</a>
+                  </li>
+                  <li class="menu__item">
+                     <a href="#english" class="menu__link">English</a>
+                  </li>
+               </ul>
+         </div>
+      </header>
+
+
+      <main class="main">
+         <div class="container main-container">
+            <section class="section section-profile" id="profile">
+               <img src="./assets/my_photo.jpg" alt class="section-profile-logo">
+               <div class="section-profile-title">
+                  <div class="section-profile-title">
+                     <h1 class="section-title main-title">
+                        Artur Satosov
+                     </h1>
+                     <h3 class="section-subtitle">
+                        Intern/ Junior Frontend Developer
+                     </h3>
+                  </div>
+               </div>
+            </section>
+            <section class="section" id="contacts">
+               <h2 class="section-title">Contacts</h2>
+               <ul class="section-list">
+                  <li class="section-item contacts-item">Naberezhnye Chelny, Russia</li>
+                  <li class="section-item contacts-item">Email:
+                     <a href="mailto:lion_sa@mail.ru" title="email">lion_sa@mail.ru</a>
+                  </li>
+                  <li class="section-item contacts-item">Github:
+                     <a href="https://github.com/ArturSatosov" title="github">ArturSatosov</a>
+                  </li>
+                  <li class="section-item contacts-item">Telegram:
+                     <a href="https://t.me/ArturSatosov" title="telegram">@s_artur8</a>
+                  </li>
+                  <li class="section-item contacts-item">Discord:
+                     <a href="https://discord.com/" title="discord">Artur#6994</a>
+                  </li>
+               </ul>
+            </section>
+            <section class="section" id="summary">
+               <h2 class="section-title">Summary</h2>
+               <p>
+                  I am a creative person, probably because of this<br>
+                  I treat work as art.
+                  I am interested in IT technology.<br>
+                  At the moment I am developing construction documentation
+                  <br>(CMD- construction metal detailing)<br> for
+                  macking
+                  stell
+                  constraction in 3d programm.
+
+               </p>
+            </section>
+            <section class="section" id="skills">
+               <h2 class="section-title">Skills</h2>
+               <ul class="section-list">
+                  <li class="section-item">
+                     Web-development:<br>
+                     <span>HTML5, CSS3</span>
+                  </li>
+                  <li class="section-item">
+                     Social network for developers:
+                     <span>Git, Github</span>
+                  </li>
+                  <li class="section-item">
+                     Graphics editor:
+                     <span>Figma</span>
+                  </li>
+               </ul>
+            </section>
+            <section class="section" id="code">
+               <h2 class="section-title">Code</h2>
+               <p>=if P1 ==1 then 0 else 1 endif <br>
+                  =if (P1 == 1 && P5 ==1) then 1 else 0 endif</p>
+            </section>
+            <section class="section" id="skills">
+               <h2 class="section-title">Courses</h2>
+               <ul class="section-list">
+                  <li class="section-item">
+                     Web-development:<br>
+                     <span>JS/FE Pre-School 2022Q4</span>
+                  </li>
+               </ul>
+            </section>
+            <section class="section" id="education">
+               <h2 class="section-title">Education</h2>
+               <ul class="section-list">
+                  <li class="section-item">
+                     Institute:
+                     <span>Kama Polytechnic of Institute,<br> Naberezhnye Chelny</span>
+                  </li>
+               </ul>
+            </section>
+            <section class="section" id="english">
+               <h2 class="section-title">English</h2>
+               <ul class="section-list">
+                  <li class="section-item">
+                     <p>A2/B1-Elementary</p>
+                  </li>
+               </ul>
+            </section>
+         </div>
+      </main>
+
+
+      <!-- footer -->
+
+      <footer class="footer">
+         <div class="container footer-container">
+            <div>
+               &#169 2022
+               <a href="https://github.com/ArturSatosov" class="github nav-link">ArturSatosov</a>
+            </div>
+            <a href="https://rs.school/js-stage0/" class="rss"></a>
+         </div>
+      </footer>
+   </div>
+</body>
+
+
 </html>
